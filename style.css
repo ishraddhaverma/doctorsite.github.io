@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #f5f5f5;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed; 
+    z-index: 4;
+    top: 0;
+}
+
+nav .menu{
+    max-width: 1250px;  
+    background:#f5f5f5; 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+   }
+   .menu .logo .logo-img{
+    display: inline;
+    margin-top: 28px;
+   }
+   .menu .logo .logo-img img{
+    
+    height: 40px;
+    width: 40px;
+   }
+
+   .menu .logo a{
+       text-decoration: none;
+       color: #19008a;
+       font-size: 35px;
+       font-weight: 600;
+   }
+   .menu ul{
+       display: inline-flex;
+   }
+   .menu ul li{
+       list-style: none;
+       margin-left: 25px;
+   }
+   
+   .menu ul li a{
+       text-decoration: none;
+       color: #0b0101;
+       font-size: 20px;
+       font-weight: 500;
+       padding: 5px 10px;
+       border-radius: 5px;
+       transition: all 0.3s ease;
+       font-family: 'Moon Dance';
+   
+   }
+   
+   .menu ul li a:hover{
+       background: #d2e9f3;
+       color: #000;
+   }
+   
+
+   .section-1{
+     margin-top: 70px;
+     margin-left: 30px;
+   }
+
+   .section-1 .container .row{
+    display: flex;
+    max-width: 100%;
+   }
+
+   .section-1 .container .row .col-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 20px 20px;
+   }
+
+    .header-icon{
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 50px;
+        background-color: #19008a;
+        height: 50px;
+        width: 200px;
+        border-radius: 100px;
+        opacity: 0.8;
+   }    
+
+   .header-icon span{
+    font-size: 20px;
+    color: #ffffff;
+   }
+
+   .content h1{
+    font-size: 50px;
+    margin: 30px;
+    color: rgb(94, 92, 92);
+   }
+
+   .section-1 .container .row .col-6 .heading-img img{
+    height: 500px;
+    width: 500px;
+   }
+
+   .section-2{
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .section-2 .container .row{
+   display: flex;
+   max-width: 100%;
+  }
+
+
+   .section-2 .container .row .col-2{
+    flex: 0 0 16.66%;
+    max-width:16.66%;
+    padding: 20px 20px;
+   }
+
+   .section-2 .container .row .col-2 img{
+    height: 200px;
+    width: 200px;
+   }
+
+   footer{
+    background-color: whitesmoke;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+   }
+   .footer-container{
+     margin: 30px 40px;
+     margin-right: 0%;
+   }
+   .footer-container .row-1{
+        display: flex;
+        max-width: 100%;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+   }
+
+   .footer-container .row-1 .col-3{
+    flex: 0 0 25%;
+    max-width:25%;
+    padding: 20px 20px;
+   }
+   .footer-container .row-1 .col-3 h1{
+        font-size: 25px;
+        color: #19008a;
+        margin-bottom: 10px;
+   }
+   .footer-container .row-1 .col-3 span{
+        color: #777575;;
+   }
+   .footer-container .row-1 .col-3 ul li{
+    color: #777575;
+    list-style: none;
+    margin-bottom: 5px;
+    }
+
+    .footer-container .row-1 .col-3 .input-email{
+        margin-top: 10px;
+        display: inline;
+    }
+
+    .footer-container .row-1 .col-3 .input-email input{
+        height: 40px;
+        width: 150px;
+        border: 3px solid whitesmoke;
+        color: #777575;
+        margin-right: 0%;
+    }
+    .footer-container .row-1 .col-3 .input-email button{
+        height: 43px;
+        width: 43px;
+        border: 3px solid whitesmoke;
+        color: #777575;
+        margin-left: 0%;
+    }
+
+    .footer-container .row-1 .col-3 .input-email button:hover{
+        background-color: #19008a;
+        color: #ffffff;
+    }
+
+    .footer-container .row-2{
+        display: flex;
+        max-width: 100%;
+       margin: 40px 40px;
+   }
+   .footer-container .row-2 .col-6{
+    flex: 0 0 50%;
+    max-width:50%;
+   }
+
+   .footer-container .row-2 .col-6 span{
+    color:#777575; 
+    display: inline;
+   }
+   .footer-container .row-2 .col-6 ul{
+    display:flex;
+    justify-content: flex-end;
+    display: inline-flex;
+   }
+   .footer-container .row-2 .col-6 ul li{
+    text-align: right;
+    list-style: none;
+    margin-left: 25px;
+    color:#777575; 
+   }
+   #footer-text{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 55px;
+    }
+
+   /*********************/
+   .col-1{
+    flex: 0 0 8.33%;
+    max-width:8.33%;
+  }
+
+  .col-2{
+    flex: 0 0 16.66%;
+    max-width:16.66%;
+  }
+  .col-3{
+    flex: 0 0 25%;
+    max-width:25%;
+  }
+  .col-4{
+    flex: 0 0 33.33%;
+    max-width:33.33%;
+  }
+  .col-5{
+    flex: 0 0 41.66%;
+    max-width:41.66%;
+  }
+  .col-6{
+    flex: 0 0 50%;
+    max-width:50%;
+  }
+  .col-7{
+    flex: 0 0 58.33%;
+    max-width:58.33%;
+  }
+  .col-8{
+    flex: 0 0 66.66%;
+    max-width:66.66%;
+  }
+  .col-9{
+    flex: 0 0 75.18%;
+    max-width:75.18%;
+  }
+  .col-10{
+    flex: 0 0 83.33%;
+    max-width:83.33%;
+  }
+  .col-11{
+    flex: 0 0 91.74%;
+    max-width:91.74%;
+  }
+  .col-12{
+    flex: 0 0 100%;
+    max-width:100%;
+  }
+
+  .section-3{
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .section-3 .container .row{
+    display: flex;
+    max-width: 100%;
+   }
+  .section-3 .container .row .col-4 .card{
+        text-align: center;
+  }
+  .section-3 .container .row .col-4 .card img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  .section-3 .container .row .col-4 .card h1{
+    color: #19008a;
+  }
+  .section-3 .container .row .col-4 .card-text p{
+    margin-top: 15px;
+    font-size: 17px;
+    color:#777575; 
+  }
+
+  .section-4{
+    margin-top: 220px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .section-4 .container .row{
+    display: flex;
+    max-width: 100%;
+  }
+  .section-4 .container .row .img-1{
+    height: 400px;
+    width: 280px;
+    border-radius: 20px;
+    z-index: 1;
+  }
+  .section-4 .container .row .img-2{
+    margin-left: 50px;
+    margin-bottom: 118px;
+    height: 280px;
+    width: 210px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 2;
+  }
+  .section-4 .container .row .img-3{
+    margin-top: 260px;
+    margin-left: -160px;
+    height: 260px;
+    width: 420px;
+    position: absolute;
+    border-radius: 20px;
+    z-index: 0;
+  }
+
+  .section-4 .container .row .content h1{
+    color: #19008a;
+  }
+  .section-4 .container .row .title{
+    margin-left: 30px;
+  }
+  .section-4 .container .row .title span{
+        font-size: 25px;
+        color:#777575; 
+        font-weight: 600;
+  }
+  .section-4 .container .row .text p{
+        font-size: 22px;
+        color:#777575; 
+        margin-left: 30px;
+  }
+  .section-4 .container .row .text button{
+    margin-top: 15px;
+    margin-left: 30px;
+    height: 50px;
+    width: 200px;
+    background-color:#19008a;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+  }
+  .section-4 .container .row .text button:hover{
+    background-color: red;
+    color: white;
+    font-weight: 600;
+  }
+  .section-4 .container .row .header-icon{
+    margin: 0 0;
+    margin-left: 30px;
+  }
+
+  .section-5{
+    margin-top: 120px;
+    margin-left: 30px;
+    margin-bottom: 80px;
+  }
+  .section-5 .container .row{
+    display: flex;
+    max-width: 100%;
+  }
+  .section-5 .container .row .content h1{
+    margin: 10px 28px;
+    color: #19008a;
+  }
+  .section-5 .container .row .text p{
+    font-size: 22px;
+    color:#777575; 
+    margin-left: 30px;
+}
+
+  .box{
+    margin-top: 130px;
+     height: 70%;   
+     width: 50%;
+     border: 3px solid whitesmoke;
+
+  }
+  .section-5 .container .row .box .box-row{
+    height: 50%;
+    width: 100%;
+    display: flex;
+  }
+.box .inner-box{
+    height: 100%;
+    width: 50%;
+   background-color: #fbfeff;
+   text-align: center;
+}
+
+.section-5 .container .row .box .box-row h1{
+    margin-top: 20%;
+    text-align: center;
+    vertical-align: center;
+    color: #19008a;
+    font-size: 45px;
+}
+.section-5 .container .row .box .box-row span{
+    color:#777575;
+    font-size: 17px;
+}
